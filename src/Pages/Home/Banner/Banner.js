@@ -1,6 +1,7 @@
 import React from "react";
 import chair from "../../../assets/images/chair.png";
 import background from "../../../assets/images/bg.png";
+import PrimaruButton from "../../../components/PrimaruButton/PrimaruButton";
 
 const Banner = () => {
   return (
@@ -21,9 +22,7 @@ const Banner = () => {
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the
           </p>
-          <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white">
-            Get Started
-          </button>
+          <PrimaruButton>Get Started</PrimaruButton>
         </div>
       </div>
     </div>
