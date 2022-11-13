@@ -15,7 +15,6 @@ const Home = () => {
       <Services></Services>
       <Exceptional></Exceptional>
       <MakeApponment></MakeApponment>
-
       <Testimonial></Testimonial>
       <Contact></Contact>
     </div>
